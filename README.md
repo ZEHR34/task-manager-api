@@ -49,9 +49,8 @@ make config folder and then dev.env and write needed data for the following
 
 Open `dev.env` then edit it with your settings. You will need:
 
-> PORT, JWT_SECRET, MONGODB_URL
+> PORT, MONGODB_URL
 
-    - JWT_SECRET is JSON web token encoding string
     - MONGODB_URL is the MongoDB Connection String
     - PORT is the Port Number the Server listen on it 
      
@@ -59,7 +58,6 @@ Open `dev.env` then edit it with your settings. You will need:
 ```javascript
 PORT=3000
 MONGODB_URL=mongodb://127.0.0.1:27017/student-enrollment-app
-JWT_SECRET=helloWorld
 ```
 ## Running the project
 ---
